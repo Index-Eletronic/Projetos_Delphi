@@ -1,0 +1,16 @@
+﻿[Image1]
+Coordinates=10,10,57,58
+
+[Memo1]
+Coordinates=146,10,64,58
+
+[]
+Coordinates=159,78,91,36
+
+[btn_img]
+Coordinates=77,10,59,58
+Visible=True
+
+[btn_txt]
+Coordinates=10,78,59,58
+

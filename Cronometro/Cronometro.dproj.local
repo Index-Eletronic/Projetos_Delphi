@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/04/28 10:31:01.000.796,=C:\Users\Acer\Documents\GitHub\Delphi\Unit1.pas</Transaction>
+    <Transaction>2022/04/28 12:24:08.000.990,=C:\Users\Acer\Documents\GitHub\Delphi\Unit1.pas</Transaction>
+    <Transaction>2022/04/28 12:24:40.000.528,C:\Users\Acer\Documents\GitHub\Delphi\Projetos_Delphi\Cronometro\U_Cronometro.dfm=C:\Users\Acer\Documents\GitHub\Delphi\Unit1.dfm</Transaction>
+    <Transaction>2022/04/28 12:24:40.000.528,C:\Users\Acer\Documents\GitHub\Delphi\Projetos_Delphi\Cronometro\U_Cronometro.pas=C:\Users\Acer\Documents\GitHub\Delphi\Unit1.pas</Transaction>
+    <Transaction>2022/04/28 12:24:51.000.507,C:\Users\Acer\Documents\GitHub\Delphi\Projetos_Delphi\Cronometro\Cronometro.dproj=C:\Users\Acer\Documents\GitHub\Delphi\Project1.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

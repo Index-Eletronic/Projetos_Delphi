@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2022/04/29 09:33:39.498,=C:\Users\Acer\Documents\GitHub\Delphi\Unit1.pas</Transaction>
+    <Transaction>2022/04/29 09:52:58.870,C:\Users\Acer\Documents\GitHub\Delphi\Projetos_Delphi\Animacao\U_Animacao.fmx=C:\Users\Acer\Documents\GitHub\Delphi\Unit1.fmx</Transaction>
+    <Transaction>2022/04/29 09:52:58.870,C:\Users\Acer\Documents\GitHub\Delphi\Projetos_Delphi\Animacao\U_Animacao.pas=C:\Users\Acer\Documents\GitHub\Delphi\Unit1.pas</Transaction>
+    <Transaction>2022/04/29 09:53:04.822,C:\Users\Acer\Documents\GitHub\Delphi\Projetos_Delphi\Animacao\Animacao.dproj=C:\Users\Acer\Documents\GitHub\Delphi\Project1.dproj</Transaction>
+  </Transactions>
+  <ActiveMobileDevice>   <NoProfile iOSSimulator="iPhone5"/>
+  </ActiveMobileDevice>
+</BorlandProject>

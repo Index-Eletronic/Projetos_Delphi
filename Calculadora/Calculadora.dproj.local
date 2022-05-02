@@ -1,11 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BorlandProject>
-  <Transactions>
-    <Transaction>2022/04/26 21:09:07.450,=C:\Users\Acer\Documents\GitHub\Delphi\Unit2.pas</Transaction>
-    <Transaction>2022/04/26 21:11:34.015,C:\Users\Acer\Documents\GitHub\Delphi\Calculadora\U_Calculadora.fmx=C:\Users\Acer\Documents\GitHub\Delphi\Unit2.fmx</Transaction>
-    <Transaction>2022/04/26 21:11:34.015,C:\Users\Acer\Documents\GitHub\Delphi\Calculadora\U_Calculadora.pas=C:\Users\Acer\Documents\GitHub\Delphi\Unit2.pas</Transaction>
-    <Transaction>2022/04/26 21:11:42.536,C:\Users\Acer\Documents\GitHub\Delphi\Calculadora\Calculadora.dproj=C:\Users\Acer\Documents\GitHub\Delphi\Project1.dproj</Transaction>
+	<Transactions>
+    <Transaction>2022/04/26 21:09:07.000.450,=C:\Users\Acer\Documents\GitHub\Delphi\Unit2.pas</Transaction>
+    <Transaction>2022/04/26 21:11:34.000.015,C:\Users\Acer\Documents\GitHub\Delphi\Unit2.fmx=C:\Users\Acer\Documents\GitHub\Delphi\Calculadora\U_Calculadora.fmx</Transaction>
+    <Transaction>2022/04/26 21:11:34.000.015,C:\Users\Acer\Documents\GitHub\Delphi\Unit2.pas=C:\Users\Acer\Documents\GitHub\Delphi\Calculadora\U_Calculadora.pas</Transaction>
+    <Transaction>2022/04/26 21:11:42.000.536,C:\Users\Acer\Documents\GitHub\Delphi\Project1.dproj=C:\Users\Acer\Documents\GitHub\Delphi\Calculadora\Calculadora.dproj</Transaction>
   </Transactions>
-  <ActiveMobileDevice>   <NoProfile iOSSimulator="iPhone5"/>
-  </ActiveMobileDevice>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5"/>
+	</ActiveMobileDevice>
 </BorlandProject>

@@ -1,0 +1,16 @@
+﻿[FloatAnimation1]
+Coordinates=138,1,108,36
+
+[lb_time]
+Coordinates=133,10,56,58
+Visible=True
+
+[Circle1]
+Coordinates=10,78,55,36
+
+[]
+Coordinates=10,10,59,58
+
+[txt_time]
+Coordinates=79,10,44,58
+
