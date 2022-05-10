@@ -1,0 +1,164 @@
+﻿object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 425
+  ClientWidth = 584
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 0
+  object txt_nome: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 3
+    Position.X = 136.000000000000000000
+    Position.Y = 40.000000000000000000
+    Enabled = False
+    Size.Width = 265.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object txt_sobrenome: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 2
+    Position.X = 136.000000000000000000
+    Position.Y = 88.000000000000000000
+    Enabled = False
+    Size.Width = 265.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object txt_permi: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 1
+    Position.X = 136.000000000000000000
+    Position.Y = 136.000000000000000000
+    Enabled = False
+    Size.Width = 265.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object txt_idade: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 0
+    Position.X = 136.000000000000000000
+    Position.Y = 184.000000000000000000
+    Enabled = False
+    Size.Width = 57.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object lb: TLabel
+    Position.X = 64.000000000000000000
+    Position.Y = 40.000000000000000000
+    Size.Width = 57.000000000000000000
+    Size.Height = 25.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'NOME:'
+    TabOrder = 7
+  end
+  object lbSobrenome: TLabel
+    Enabled = False
+    Position.X = 48.000000000000000000
+    Position.Y = 88.000000000000000000
+    Size.Width = 89.000000000000000000
+    Size.Height = 25.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'SOBRENOME:'
+    TabOrder = 6
+  end
+  object lb_permisão: TLabel
+    Position.X = 40.000000000000000000
+    Position.Y = 136.000000000000000000
+    Size.Width = 89.000000000000000000
+    Size.Height = 25.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'PERMISS'#195'O:'
+    TabOrder = 5
+  end
+  object lbidade: TLabel
+    Enabled = False
+    Position.X = 64.000000000000000000
+    Position.Y = 184.000000000000000000
+    Size.Width = 57.000000000000000000
+    Size.Height = 25.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'IDADE:'
+    TabOrder = 4
+  end
+  object btn_novo: TButton
+    Cursor = crHandPoint
+    Position.X = 64.000000000000000000
+    Position.Y = 232.000000000000000000
+    TabOrder = 14
+    Text = 'NOVO'
+    OnClick = btn_novoClick
+  end
+  object btn_salvar: TButton
+    Cursor = crHandPoint
+    Position.X = 160.000000000000000000
+    Position.Y = 232.000000000000000000
+    TabOrder = 13
+    Text = 'SALVAR'
+  end
+  object btn_editar: TButton
+    Cursor = crHandPoint
+    Position.X = 264.000000000000000000
+    Position.Y = 232.000000000000000000
+    TabOrder = 12
+    Text = 'EDITAR'
+  end
+  object btn_excluir: TButton
+    Cursor = crHandPoint
+    Position.X = 360.000000000000000000
+    Position.Y = 232.000000000000000000
+    TabOrder = 11
+    Text = 'EXCLUIR'
+  end
+  object btn_cancelar: TButton
+    Cursor = crHandPoint
+    Position.X = 456.000000000000000000
+    Position.Y = 232.000000000000000000
+    TabOrder = 10
+    Text = 'CANCELAR'
+  end
+  object btn_voltar: TButton
+    Cursor = crHandPoint
+    Position.X = 240.000000000000000000
+    Position.Y = 184.000000000000000000
+    Size.Width = 41.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+    StyleLookup = 'rewindtoolbutton'
+    TabOrder = 17
+    OnClick = btn_voltarClick
+  end
+  object btn_prosseguir: TButton
+    Cursor = crHandPoint
+    Position.X = 312.000000000000000000
+    Position.Y = 184.000000000000000000
+    Size.Width = 41.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+    StyleLookup = 'forwardtoolbutton'
+    TabOrder = 16
+    OnClick = btn_prosseguirClick
+  end
+  object FDConnection1: TFDConnection
+    Params.Strings = (
+      'DriverID=MySQL')
+    LoginPrompt = False
+    Left = 496
+    Top = 32
+  end
+  object Driver: TFDPhysMySQLDriverLink
+    Left = 496
+    Top = 104
+  end
+  object tb_usuarios: TFDTable
+    Connection = FDConnection1
+    Left = 496
+    Top = 168
+  end
+end

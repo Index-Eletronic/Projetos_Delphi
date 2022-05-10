@@ -65,6 +65,7 @@ object Form1: TForm1
     Top = 248
   end
   object dg_save: TSaveDialog
+    Filter = 'Txt(*.txt)|*.txt|Doc(*.doc)|*.docx'
     Left = 552
     Top = 248
   end

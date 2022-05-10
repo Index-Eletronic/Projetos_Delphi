@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2022/05/04 13:15:49.719,=C:\Users\Acer\Documents\GitHub\Delphi\Unit1.pas</Transaction>
+    <Transaction>2022/05/04 13:16:36.921,C:\Users\Acer\Documents\GitHub\Delphi\FormMasc.dproj=C:\Users\Acer\Documents\GitHub\Delphi\Project1.dproj</Transaction>
+    <Transaction>2022/05/04 13:17:10.288,C:\Users\Acer\Documents\GitHub\Delphi\Projetos_Delphi\Mascara\U_FormMask.dfm=C:\Users\Acer\Documents\GitHub\Delphi\Unit1.dfm</Transaction>
+    <Transaction>2022/05/04 13:17:10.288,C:\Users\Acer\Documents\GitHub\Delphi\Projetos_Delphi\Mascara\U_FormMask.pas=C:\Users\Acer\Documents\GitHub\Delphi\Unit1.pas</Transaction>
+    <Transaction>2022/05/04 13:17:14.236,C:\Users\Acer\Documents\GitHub\Delphi\Projetos_Delphi\Mascara\FormMasc.dproj=C:\Users\Acer\Documents\GitHub\Delphi\FormMasc.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

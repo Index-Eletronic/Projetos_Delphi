@@ -1,0 +1,107 @@
+﻿object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 425
+  ClientWidth = 584
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object txt_nome: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 4
+    Position.X = 136.000000000000000000
+    Position.Y = 40.000000000000000000
+    Size.Width = 265.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object txt_sobrenome: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 3
+    Position.X = 136.000000000000000000
+    Position.Y = 88.000000000000000000
+    Size.Width = 265.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object txt_permi: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 2
+    Position.X = 136.000000000000000000
+    Position.Y = 136.000000000000000000
+    Size.Width = 265.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object txt_idade: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 1
+    Position.X = 136.000000000000000000
+    Position.Y = 184.000000000000000000
+    Size.Width = 57.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object lb: TLabel
+    Position.X = 72.000000000000000000
+    Position.Y = 40.000000000000000000
+    Size.Width = 57.000000000000000000
+    Size.Height = 25.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'NOME:'
+    TabOrder = 8
+  end
+  object lbSobrenome: TLabel
+    Position.X = 48.000000000000000000
+    Position.Y = 88.000000000000000000
+    Size.Width = 89.000000000000000000
+    Size.Height = 25.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'SOBRENOME:'
+    TabOrder = 7
+  end
+  object lb_permisão: TLabel
+    Position.X = 40.000000000000000000
+    Position.Y = 136.000000000000000000
+    Size.Width = 89.000000000000000000
+    Size.Height = 25.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'PERMISS'#195'O:'
+    TabOrder = 6
+  end
+  object lbidade: TLabel
+    Position.X = 64.000000000000000000
+    Position.Y = 184.000000000000000000
+    Size.Width = 89.000000000000000000
+    Size.Height = 25.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'IDADE:'
+    TabOrder = 5
+  end
+  object btn_conexao: TButton
+    Position.X = 376.000000000000000000
+    Position.Y = 232.000000000000000000
+    Size.Width = 49.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    StyleLookup = 'forwardtoolbutton'
+    TabOrder = 10
+    Text = 'forwardtoolbutton'
+  end
+  object Button1: TButton
+    Position.X = 112.000000000000000000
+    Position.Y = 232.000000000000000000
+    Size.Width = 41.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    StyleLookup = 'rewindtoolbutton'
+    TabOrder = 9
+    Text = 'rewindtoolbutton'
+  end
+  object FDConnection1: TFDConnection
+    Left = 480
+    Top = 72
+  end
+end

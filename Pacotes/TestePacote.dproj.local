@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2022/05/04 13:47:19.781,=C:\Users\Acer\Documents\GitHub\Delphi\Unit1.pas</Transaction>
+    <Transaction>2022/05/04 13:48:36.013,C:\Users\Acer\Documents\GitHub\Delphi\Projetos_Delphi\Pacotes\Unit1.dfm=C:\Users\Acer\Documents\GitHub\Delphi\Unit1.dfm</Transaction>
+    <Transaction>2022/05/04 13:48:36.013,C:\Users\Acer\Documents\GitHub\Delphi\Projetos_Delphi\Pacotes\Unit1.pas=C:\Users\Acer\Documents\GitHub\Delphi\Unit1.pas</Transaction>
+    <Transaction>2022/05/04 13:48:42.061,C:\Users\Acer\Documents\GitHub\Delphi\Projetos_Delphi\Pacotes\TestePacote.dproj=C:\Users\Acer\Documents\GitHub\Delphi\Project1.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

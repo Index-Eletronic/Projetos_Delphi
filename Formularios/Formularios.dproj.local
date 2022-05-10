@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/05/02 15:12:21.000.995,=C:\Users\Acer\Documents\GitHub\Delphi\Unit1.pas</Transaction>
+    <Transaction>2022/05/02 15:12:58.000.801,C:\Users\Acer\Documents\GitHub\Delphi\Unit1.dfm=C:\Users\Acer\Documents\GitHub\Delphi\Projetos_Delphi\Formularios\Menu.dfm</Transaction>
+    <Transaction>2022/05/02 15:12:58.000.801,C:\Users\Acer\Documents\GitHub\Delphi\Unit1.pas=C:\Users\Acer\Documents\GitHub\Delphi\Projetos_Delphi\Formularios\Menu.pas</Transaction>
+    <Transaction>2022/05/02 15:13:25.000.084,C:\Users\Acer\Documents\GitHub\Delphi\Project1.dproj=C:\Users\Acer\Documents\GitHub\Delphi\Projetos_Delphi\Formularios\Formularios.dproj</Transaction>
+    <Transaction>2022/05/04 08:24:42.881,=C:\Users\Acer\Documents\GitHub\Delphi\Projetos_Delphi\Formularios\Unit1.pas</Transaction>
+    <Transaction>2022/05/04 08:25:34.828,C:\Users\Acer\Documents\GitHub\Delphi\Projetos_Delphi\Formularios\U_Texto.dfm=C:\Users\Acer\Documents\GitHub\Delphi\Projetos_Delphi\Formularios\Unit1.dfm</Transaction>
+    <Transaction>2022/05/04 08:25:34.828,C:\Users\Acer\Documents\GitHub\Delphi\Projetos_Delphi\Formularios\U_Texto.pas=C:\Users\Acer\Documents\GitHub\Delphi\Projetos_Delphi\Formularios\Unit1.pas</Transaction>
+    <Transaction>2022/05/04 08:29:15.166,=C:\Users\Acer\Documents\GitHub\Delphi\Projetos_Delphi\Formularios\Unit1.pas</Transaction>
+    <Transaction>2022/05/04 08:29:56.429,C:\Users\Acer\Documents\GitHub\Delphi\Projetos_Delphi\Formularios\U_Imagem.dfm=C:\Users\Acer\Documents\GitHub\Delphi\Projetos_Delphi\Formularios\Unit1.dfm</Transaction>
+    <Transaction>2022/05/04 08:29:56.429,C:\Users\Acer\Documents\GitHub\Delphi\Projetos_Delphi\Formularios\U_Imagem.pas=C:\Users\Acer\Documents\GitHub\Delphi\Projetos_Delphi\Formularios\Unit1.pas</Transaction>
+    <Transaction>2022/05/04 08:55:47.514,C:\Users\Acer\Documents\GitHub\Delphi\Projetos_Delphi\Formularios\U_Imagem.pas=</Transaction>
+    <Transaction>2022/05/04 08:56:16.670,=C:\Users\Acer\Documents\GitHub\Delphi\Projetos_Delphi\Formularios\Unit1.pas</Transaction>
+    <Transaction>2022/05/04 08:56:43.497,C:\Users\Acer\Documents\GitHub\Delphi\Projetos_Delphi\Formularios\U_Imagem.pas=C:\Users\Acer\Documents\GitHub\Delphi\Projetos_Delphi\Formularios\Unit1.pas</Transaction>
+    <Transaction>2022/05/04 08:56:43.497,C:\Users\Acer\Documents\GitHub\Delphi\Projetos_Delphi\Formularios\U_Imagem.dfm=C:\Users\Acer\Documents\GitHub\Delphi\Projetos_Delphi\Formularios\Unit1.dfm</Transaction>
+  </Transactions>  <ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="Menu.pas"/>
+    <File Path="Menu.dfm"/>
+    <File Path="U_Texto.pas"/>
+    <File Path="U_Texto.dfm"/>
+    <File Path="U_Imagem.pas"/>
+    <File Path="U_Imagem.dfm"/>
+  </ProjectSortOrder>
+</BorlandProject>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2022/05/04 13:05:35.222,=rtl.dcp</Transaction>
+    <Transaction>2022/05/04 13:07:06.896,=C:\Users\Acer\Documents\GitHub\Delphi\Projetos_Delphi\Mascara\U_Mask.pas</Transaction>
+    <Transaction>2022/05/04 13:07:06.958,=vcl.dcp</Transaction>
+    <Transaction>2022/05/04 13:14:02.712,C:\Users\Acer\Documents\GitHub\Delphi\Projetos_Delphi\Mascara\Mascara.dproj=C:\Users\Acer\Documents\GitHub\Delphi\Package1.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

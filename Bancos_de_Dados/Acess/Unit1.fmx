@@ -1,0 +1,154 @@
+object frm_Inicial: Tfrm_Inicial
+  Left = 0
+  Top = 0
+  Caption = 'Conexao Acess'
+  ClientHeight = 230
+  ClientWidth = 389
+  Position = DesktopCenter
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object txt_nome: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 1
+    Position.X = 144.000000000000000000
+    Position.Y = 16.000000000000000000
+    Size.Width = 201.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object txt_sobrenome: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 2
+    Position.X = 144.000000000000000000
+    Position.Y = 56.000000000000000000
+    Size.Width = 201.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object txt_permisao: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 3
+    Position.X = 144.000000000000000000
+    Position.Y = 96.000000000000000000
+    Size.Width = 201.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object NavigatorBindSourceusuarios: TBindNavigator
+    Position.X = 128.000000000000000000
+    Position.Y = 176.000000000000000000
+    Size.Width = 241.000000000000000000
+    Size.Height = 25.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 8
+    DataSource = BindSourceusuarios
+    xRadius = 4.000000000000000000
+    yRadius = 4.000000000000000000
+  end
+  object lb_nome: TLabel
+    Position.X = 104.000000000000000000
+    Position.Y = 16.000000000000000000
+    Size.Width = 41.000000000000000000
+    Size.Height = 25.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Nome:'
+    TabOrder = 13
+  end
+  object lb_Sobrenome: TLabel
+    Position.X = 72.000000000000000000
+    Position.Y = 56.000000000000000000
+    Size.Width = 73.000000000000000000
+    Size.Height = 25.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Sobrenome:'
+    TabOrder = 12
+  end
+  object lb_permi: TLabel
+    Position.X = 80.000000000000000000
+    Position.Y = 96.000000000000000000
+    Size.Width = 65.000000000000000000
+    Size.Height = 25.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Permiss'#227'o:'
+    TabOrder = 11
+  end
+  object lb_idade: TLabel
+    Position.X = 104.000000000000000000
+    Position.Y = 136.000000000000000000
+    Size.Width = 41.000000000000000000
+    Size.Height = 25.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Idade:'
+    TabOrder = 10
+  end
+  object txt_edit: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 4
+    Position.X = 144.000000000000000000
+    Position.Y = 136.000000000000000000
+    Size.Width = 201.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object FDConnection1: TFDConnection
+    Params.Strings = (
+      
+        'Database=C:\Users\Acer\Documents\GitHub\Delphi\Projetos_Delphi\B' +
+        'ancos_de_Dados\Acess\Arquivos\bd.mdb'
+      'DriverID=MSAcc')
+    Connected = True
+    LoginPrompt = False
+    Left = 16
+    Top = 64
+  end
+  object BindSourceusuarios: TBindSourceDB
+    DataSet = FDTableusuarios
+    ScopeMappings = <>
+    Left = 16
+    Top = 168
+  end
+  object FDTableusuarios: TFDTable
+    Active = True
+    IndexFieldNames = 'id'
+    Connection = FDConnection1
+    TableName = 'usuarios'
+    Left = 16
+    Top = 8
+  end
+  object BindingsList1: TBindingsList
+    Methods = <>
+    OutputConverters = <>
+    Left = 20
+    Top = 117
+    object LinkControlToField1: TLinkControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceusuarios
+      FieldName = 'nome'
+      Control = txt_nome
+      Track = False
+    end
+    object LinkControlToField2: TLinkControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceusuarios
+      FieldName = 'sobrenome'
+      Control = txt_sobrenome
+      Track = False
+    end
+    object LinkControlToField3: TLinkControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceusuarios
+      FieldName = 'permisao'
+      Control = txt_permisao
+      Track = False
+    end
+    object LinkControlToField5: TLinkControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceusuarios
+      FieldName = 'idade'
+      Control = txt_edit
+      Track = False
+    end
+  end
+end

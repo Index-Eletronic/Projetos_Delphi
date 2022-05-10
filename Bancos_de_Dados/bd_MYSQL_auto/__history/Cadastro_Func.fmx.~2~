@@ -1,0 +1,193 @@
+﻿object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 345
+  ClientWidth = 524
+  Position = DesktopCenter
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 0
+  object txt_nome: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 3
+    Position.X = 136.000000000000000000
+    Position.Y = 80.000000000000000000
+    Enabled = False
+    Size.Width = 265.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object txt_sobrenome: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 2
+    Position.X = 136.000000000000000000
+    Position.Y = 128.000000000000000000
+    Enabled = False
+    Size.Width = 265.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object txt_permi: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 1
+    Position.X = 136.000000000000000000
+    Position.Y = 176.000000000000000000
+    Enabled = False
+    Size.Width = 265.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object txt_idade: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 0
+    Position.X = 136.000000000000000000
+    Position.Y = 224.000000000000000000
+    Enabled = False
+    Size.Width = 57.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object lb: TLabel
+    StyledSettings = [Size, FontColor]
+    Position.X = 88.000000000000000000
+    Position.Y = 88.000000000000000000
+    Size.Width = 49.000000000000000000
+    Size.Height = 25.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Family = 'Comic Sans MS'
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    Text = 'NOME:'
+    TabOrder = 8
+  end
+  object lbSobrenome: TLabel
+    StyledSettings = [Size, FontColor]
+    Position.X = 48.000000000000000000
+    Position.Y = 136.000000000000000000
+    Size.Width = 89.000000000000000000
+    Size.Height = 25.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Family = 'Comic Sans MS'
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    Text = 'SOBRENOME:'
+    TabOrder = 6
+  end
+  object lb_permisão: TLabel
+    StyledSettings = [Size, FontColor]
+    Position.X = 72.000000000000000000
+    Position.Y = 184.000000000000000000
+    Size.Width = 65.000000000000000000
+    Size.Height = 25.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Family = 'Comic Sans MS'
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    Text = 'FUN'#199#195'O:'
+    TabOrder = 5
+  end
+  object lbidade: TLabel
+    StyledSettings = [Size, FontColor]
+    Position.X = 80.000000000000000000
+    Position.Y = 232.000000000000000000
+    Size.Width = 57.000000000000000000
+    Size.Height = 25.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Family = 'Comic Sans MS'
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    Text = 'IDADE:'
+    TabOrder = 4
+  end
+  object btn_novo: TButton
+    Cursor = crHandPoint
+    Position.X = 24.000000000000000000
+    Position.Y = 272.000000000000000000
+    TabOrder = 15
+    Text = 'NOVO'
+    OnClick = btn_novoClick
+  end
+  object btn_salvar: TButton
+    Cursor = crHandPoint
+    Position.X = 120.000000000000000000
+    Position.Y = 272.000000000000000000
+    TabOrder = 14
+    Text = 'SALVAR'
+    OnClick = btn_salvarClick
+  end
+  object btn_editar: TButton
+    Cursor = crHandPoint
+    Position.X = 224.000000000000000000
+    Position.Y = 272.000000000000000000
+    TabOrder = 13
+    Text = 'EDITAR'
+    OnClick = btn_editarClick
+  end
+  object btn_excluir: TButton
+    Cursor = crHandPoint
+    Position.X = 320.000000000000000000
+    Position.Y = 272.000000000000000000
+    TabOrder = 12
+    Text = 'EXCLUIR'
+    OnClick = btn_excluirClick
+  end
+  object btn_cancelar: TButton
+    Cursor = crHandPoint
+    Position.X = 416.000000000000000000
+    Position.Y = 272.000000000000000000
+    TabOrder = 11
+    Text = 'CANCELAR'
+    OnClick = btn_cancelarClick
+  end
+  object btn_voltar: TButton
+    Cursor = crHandPoint
+    Position.X = 240.000000000000000000
+    Position.Y = 224.000000000000000000
+    Size.Width = 41.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+    StyleLookup = 'rewindtoolbutton'
+    TabOrder = 18
+    OnClick = btn_voltarClick
+  end
+  object btn_prosseguir: TButton
+    Cursor = crHandPoint
+    Position.X = 312.000000000000000000
+    Position.Y = 224.000000000000000000
+    Size.Width = 41.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+    StyleLookup = 'forwardtoolbutton'
+    TabOrder = 17
+    OnClick = btn_prosseguirClick
+  end
+  object Label1: TLabel
+    StyledSettings = [Size, FontColor]
+    Position.X = 56.000000000000000000
+    Position.Y = 24.000000000000000000
+    Size.Width = 225.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Family = 'Comic Sans MS'
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    Text = 'CADASTRO DE FUCION'#193'RIOS'
+    TabOrder = 7
+  end
+  object FDConnection1: TFDConnection
+    Params.Strings = (
+      'DriverID=MySQL'
+      'Server=xmysql41.f1.k8.com.br')
+    LoginPrompt = False
+    Left = 440
+    Top = 72
+  end
+  object Driver: TFDPhysMySQLDriverLink
+    Left = 440
+    Top = 144
+  end
+  object tb_usuarios: TFDTable
+    BeforePost = tb_usuariosBeforePost
+    Connection = FDConnection1
+    Left = 440
+    Top = 208
+  end
+end

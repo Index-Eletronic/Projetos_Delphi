@@ -43,9 +43,9 @@ end;
 
 procedure TForm1.btn_salvarClick(Sender: TObject);
 begin
- if dg_txt.Execute() then
+ if dg_save.Execute() then
   begin
-    Memo1.Lines.SaveToFile(dg_save.FileName);
+    Memo1.Lines.SaveToFile(dg_save.FileName + '.txt');
   end;
 end;
 

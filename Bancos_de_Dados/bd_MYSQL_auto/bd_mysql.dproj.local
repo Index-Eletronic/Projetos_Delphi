@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/05/09 09:21:56.000.948,=C:\Users\Acer\Documents\GitHub\Delphi\Unit1.pas</Transaction>
+    <Transaction>2022/05/09 09:23:07.000.653,C:\Users\Acer\Documents\GitHub\Delphi\Unit1.fmx=C:\Users\Acer\Documents\GitHub\Delphi\Projetos_Delphi\Bancos_de_Dados\bd_MYSQL_auto\Unit1.fmx</Transaction>
+    <Transaction>2022/05/09 09:23:07.000.653,C:\Users\Acer\Documents\GitHub\Delphi\Unit1.pas=C:\Users\Acer\Documents\GitHub\Delphi\Projetos_Delphi\Bancos_de_Dados\bd_MYSQL_auto\Unit1.pas</Transaction>
+    <Transaction>2022/05/09 09:23:15.000.713,C:\Users\Acer\Documents\GitHub\Delphi\Project1.dproj=C:\Users\Acer\Documents\GitHub\Delphi\Projetos_Delphi\Bancos_de_Dados\bd_MYSQL_auto\bd_mysql.dproj</Transaction>
+    <Transaction>2022/05/10 08:05:05.000.990,C:\Users\Acer\Documents\GitHub\Delphi\Projetos_Delphi\Bancos_de_Dados\bd_MYSQL_auto\Unit1.fmx=C:\Users\Acer\Documents\GitHub\Delphi\Projetos_Delphi\Bancos_de_Dados\bd_MYSQL_auto\Cadastro_Func.fmx</Transaction>
+    <Transaction>2022/05/10 08:05:05.000.990,C:\Users\Acer\Documents\GitHub\Delphi\Projetos_Delphi\Bancos_de_Dados\bd_MYSQL_auto\Unit1.pas=C:\Users\Acer\Documents\GitHub\Delphi\Projetos_Delphi\Bancos_de_Dados\bd_MYSQL_auto\Cadastro_Func.pas</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5"/>
+	</ActiveMobileDevice>
+</BorlandProject>
