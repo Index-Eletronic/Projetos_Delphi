@@ -1,0 +1,17 @@
+program Calculadora;
+
+uses
+  Vcl.Forms,
+  index in 'index.pas' {frm_index},
+  Vcl.Themes,
+  Vcl.Styles;
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  TStyleManager.TrySetStyle('Light');
+  Application.CreateForm(Tfrm_index, frm_index);
+  Application.Run;
+end.

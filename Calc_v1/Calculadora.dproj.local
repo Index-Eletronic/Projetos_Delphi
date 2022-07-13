@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/05/10 08:53:44.000.114,=C:\Users\Acer\Documents\GitHub\Delphi\Unit1.pas</Transaction>
+    <Transaction>2022/05/11 12:19:39.000.350,=C:\Users\Acer\Documents\GitHub\Delphi\Unit1.pas</Transaction>
+    <Transaction>2022/05/11 12:52:08.000.062,C:\Users\Acer\Documents\GitHub\Delphi\Projetos_Delphi\Calc_v1\index.dfm=C:\Users\Acer\Documents\GitHub\Delphi\Unit1.dfm</Transaction>
+    <Transaction>2022/05/11 12:52:08.000.062,C:\Users\Acer\Documents\GitHub\Delphi\Projetos_Delphi\Calc_v1\index.pas=C:\Users\Acer\Documents\GitHub\Delphi\Unit1.pas</Transaction>
+    <Transaction>2022/05/11 12:52:19.000.674,C:\Users\Acer\Documents\GitHub\Delphi\Projetos_Delphi\Calc_v1\Calculadora.dproj=C:\Users\Acer\Documents\GitHub\Delphi\Project1.dproj</Transaction>
+    <Transaction>2022/05/11 15:23:48.000.709,=C:\Users\Acer\Documents\GitHub\Delphi\Projetos_Delphi\Calc_v1\Unit1.pas</Transaction>
+    <Transaction>2022/05/11 15:24:44.000.782,C:\Users\Acer\Documents\GitHub\Delphi\Projetos_Delphi\Calc_v1\Unit1.dfm=C:\Users\Acer\Documents\GitHub\Delphi\Projetos_Delphi\Calc_v1\U_Parametros.dfm</Transaction>
+    <Transaction>2022/05/11 15:24:44.000.782,C:\Users\Acer\Documents\GitHub\Delphi\Projetos_Delphi\Calc_v1\Unit1.pas=C:\Users\Acer\Documents\GitHub\Delphi\Projetos_Delphi\Calc_v1\U_Parametros.pas</Transaction>
+    <Transaction>2022/05/11 15:26:37.000.449,C:\Users\Acer\Documents\GitHub\Delphi\Projetos_Delphi\Calc_v1\U_Parametros.dfm=C:\Users\Acer\Documents\GitHub\Delphi\Projetos_Delphi\Calc_v1\U_preços.dfm</Transaction>
+    <Transaction>2022/05/11 15:26:37.000.449,C:\Users\Acer\Documents\GitHub\Delphi\Projetos_Delphi\Calc_v1\U_Parametros.pas=C:\Users\Acer\Documents\GitHub\Delphi\Projetos_Delphi\Calc_v1\U_preços.pas</Transaction>
+    <Transaction>2022/05/11 15:26:46.000.842,C:\Users\Acer\Documents\GitHub\Delphi\Projetos_Delphi\Calc_v1\U_preços.dfm=C:\Users\Acer\Documents\GitHub\Delphi\Projetos_Delphi\Calc_v1\U_precos.dfm</Transaction>
+    <Transaction>2022/05/11 15:26:46.000.842,C:\Users\Acer\Documents\GitHub\Delphi\Projetos_Delphi\Calc_v1\U_preços.pas=C:\Users\Acer\Documents\GitHub\Delphi\Projetos_Delphi\Calc_v1\U_precos.pas</Transaction>
+  </Transactions>
+</BorlandProject>
